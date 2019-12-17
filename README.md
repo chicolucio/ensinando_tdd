@@ -9,7 +9,7 @@ Programas:
     - [x] usando *for*
     - [x] usando *while*
     - [x] usando recursividade
-- [] Retorna o enésimo termo de uma [sequência de Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number)
+- [x] Retorna o enésimo termo de uma [sequência de Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number)
 - [] Retorna a lista de divisores inteiros positivos para um inteiro *n*
 - [] Calcula a distância entre dois pontos de coordenadas (x,y)
 - [] Retorna uma [sequência de Collatz](https://en.wikipedia.org/wiki/Collatz_conjecture)
