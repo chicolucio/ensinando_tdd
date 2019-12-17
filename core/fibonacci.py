@@ -1,5 +1,16 @@
 def fibonacci_nth(inteiro):
+    """Retorna o enésimo número de uma sequência de Fibonacci
 
+    Parameters
+    ----------
+    inteiro : type
+        Posição que se quer da sequência
+
+    Returns
+    -------
+    int
+        Valor do número em tal posição da sequência
+    """
     anterior = 1
     atual = 1
 
