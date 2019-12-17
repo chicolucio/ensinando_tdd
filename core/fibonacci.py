@@ -27,3 +27,6 @@ def fibonacci_nth(inteiro):
         enesimo = atual
 
     return enesimo
+
+
+# TODO fazer o if main para rodar direto do terminal
