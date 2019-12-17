@@ -1,6 +1,6 @@
 import unittest
 
-from code import par
+from core import par
 
 
 class TestPar(unittest.TestCase):
@@ -18,3 +18,9 @@ class TestPar(unittest.TestCase):
 
     def test_e_par_0(self):
         self.assertTrue(par.e_par(0))
+
+    def test_e_par_string(self):
+        self.assertRaises(TypeError, par.e_par, 'string')
+
+    def test_e_par_float(self):
+        self.assertRaises(TypeError, par.e_par, 2.5)
