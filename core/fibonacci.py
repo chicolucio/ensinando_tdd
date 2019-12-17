@@ -1,9 +1,9 @@
-def fibonacci_nth(inteiro):
+def fibonacci_nth(posicao):
     """Retorna o enésimo número de uma sequência de Fibonacci
 
     Parameters
     ----------
-    inteiro : type
+    posicao : type
         Posição que se quer da sequência
 
     Returns
@@ -16,11 +16,11 @@ def fibonacci_nth(inteiro):
 
     contador = 3
 
-    if inteiro == 1 or inteiro == 2:
+    if posicao == 1 or posicao == 2:
         enesimo = 1
 
     else:
-        while contador <= inteiro:
+        while contador <= posicao:
             anterior, atual = atual, anterior + atual
             contador += 1
 
