@@ -36,7 +36,7 @@ def fatorial_for(inteiro):
 
     Returns
     -------
-    [type]
+    int
         Fatorial do número fornecido.
     """
     if inteiro == 0 or inteiro == 1:
@@ -59,7 +59,7 @@ def fatorial_while(inteiro):
 
     Returns
     -------
-    [type]
+    int
         Fatorial do número fornecido.
     """
     if inteiro == 0 or inteiro == 1:
@@ -84,7 +84,7 @@ def fatorial_recursivo(inteiro):
 
     Returns
     -------
-    [type]
+    int
         Fatorial do número fornecido.
     """
     if inteiro == 0 or inteiro == 1:
