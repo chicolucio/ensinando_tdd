@@ -1,6 +1,6 @@
 # Testes e docstrings
 
-Repositório para aprender a fazer testes e documentar código.
+Repositório para ensinar alunos a fazer testes e documentar código.
 
 Programas:
 
